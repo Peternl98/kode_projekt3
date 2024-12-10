@@ -56,6 +56,12 @@ button:hover {
     background-color:rgb(246, 71, 64);
 }
 
+.herobannerimage {
+        display: flex;
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+}
 
 /*herunder styles main*/
 
@@ -110,6 +116,7 @@ button:hover {
 .text-wrapper h1 {
     font-size: 32px;
     color: #000;
+    background-color:rgb(217, 217, 217);
     font-family: "Allison"
 }
 
