@@ -1,0 +1,177 @@
+/*Importlink til Google Fonts Instrument Sans og Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Doodle+Shadow&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*herunder styles header*/
+
+li, a, button {
+    font-family: "Inter";
+    font: weight 400px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo {
+    height: 100px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.navlinks {
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a {
+    transition: all 0.4s ease 0s;
+}
+.navlinks li a:hover{
+    color: rgb(0, 79, 116);
+}
+button {
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color:rgb(79, 157, 209);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:rgb(246, 71, 64);
+}
+
+
+/*herunder styles main*/
+
+
+.kompetencer {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    color:rgb(0, 79, 116);
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 5%;
+    background-color:rgb(190, 220, 254);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+    background-color: rgb(217, 217, 217);
+}
+
+.image-wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px; 
+}
+
+.portræt {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.spritesheet {
+    position: absolute;
+    bottom: 20px;
+    left: -20%;
+    width: 600px; 
+}
+
+.text-wrapper {
+    text-align: left;
+    max-width: 400px; 
+    font-family: "Inter";
+    background-color:rgb(217, 217, 217);
+}
+
+.text-wrapper h1 {
+    font-size: 32px;
+    color: #000;
+    font-family: "Allison"
+}
+
+.text-wrapper h2 {
+    font-size: 24px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:rgb(217, 217, 217);
+}
+
+.text-wrapper p {
+    font-size: 12px;
+    color: rgb(0, 79, 116);
+    background-color:rgb(217, 217, 217);
+}
+
+.text-wrapper a {
+    color: rgb(0, 79, 116);
+    text-decoration: none;
+    font-weight: 400;
+    background-color:rgb(217, 217, 217);
+}
+
+.text-wrapper a:hover {
+    text-decoration: underline;
+}
+
+
+.projekter {
+    text-align: right;
+    padding-right: 20px;
+    max-width: auto; 
+    height: 200px;
+    font-family: "Inter";
+    background-color:rgb(190, 220, 254); 
+}
+
+.projekter-text h1 {
+    font-size: 32px;
+    color: #000;
+    font-family: "Instrument Sans";
+    background-color: rgb(190, 220, 254);
+}
+
+
+/*herunder styles footer*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 5%;
+    background-color:rgb(246, 71, 64);
+    font-family: "Inter";
+    font: weight 300px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.footerlogo{
+    height: 100px;
+    margin-right: auto;
+    padding-right: 20px;
+    background-color: rgb(246, 71, 64)
+}
