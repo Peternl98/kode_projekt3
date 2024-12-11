@@ -150,7 +150,6 @@ button:hover {
 .projekter {
     text-align: right;
     padding-right: 20px; 
-    height: auto;
     font-family: "Inter";
     background-color:rgb(190, 220, 254); 
 }
@@ -164,19 +163,17 @@ button:hover {
 
 /*her koder jeg cards til at vise projekt-eksempler på forsiden*/
 
-.cards{
-    height: auto;
-    background-color: white;
-
-}
-.illustrationcard{
-    width: 100px;
-    
 
 
-
+.illustratorcard{
+    width: 49%;
+    padding: 20px 5%;
 }
 
+.fotograficard{
+    width: 49%;
+    padding: 20px 5%;
+}
 
 
 
@@ -259,7 +256,7 @@ footer{
         text-align: right;
         padding-right: 20px;
         max-width: auto; 
-        height: 200px;
+        height: auto;
         font-family: "Inter";
         background-color:rgb(190, 220, 254); 
     }
