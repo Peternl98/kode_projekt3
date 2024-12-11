@@ -161,9 +161,8 @@ button:hover {
     background-color: rgb(190, 220, 254);
 }
 
-/*her koder jeg cards til at vise projekt-eksempler på forsiden*/
 
-
+/*her koder jeg cards til at vise projekt-eksempler på forsiden (Lav evt. links til side v. klik*/
 
 .illustratorcard{
     width: 49%;
@@ -175,9 +174,67 @@ button:hover {
     padding: 20px 5%;
 }
 
+/*test af slide funktion til projekteksempler*/
+body {
+    justify-content:center;
+    align-items: center;
+    min-height: 100px;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .slider-container {
+    position: relative;
+    padding: 20px 5%;
+    width: 100%;
+    min-width: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% * 6);
+  }
+  
+  .slider-track img {
+    width: calc(100% / 3);
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  /* Pile til slider */
 
-
-
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
 
 /*herunder styles footer*/
 
