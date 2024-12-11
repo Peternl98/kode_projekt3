@@ -67,13 +67,17 @@ button:hover {
 /*herunder styles main*/
 
 
-.kompetencer {
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 32px;
+.bluebox {
     color:rgb(0, 79, 116);
     display: flex;
     justify-content: flex-start;
+    background-color:rgb(190, 220, 254);
+    
+}
+.bluetext{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
     padding: 20px 5%;
     background-color:rgb(190, 220, 254);
 
@@ -150,11 +154,13 @@ button:hover {
 .projekter {
     text-align: right;
     padding-right: 20px; 
+    min-height: 100px;
     font-family: "Inter";
     background-color:rgb(190, 220, 254); 
 }
 
 .projekter-text h1 {
+    display: flex-end;
     font-size: 32px;
     color: #000;
     font-family: "Instrument Sans";
@@ -164,15 +170,29 @@ button:hover {
 
 /*her koder jeg cards til at vise projekt-eksempler på forsiden (Lav evt. links til side v. klik*/
 
-.illustratorcard{
-    width: 49%;
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px 5%;
+}
+.illustratorcard{
+    width: 50%;
+    padding: 25px;
 }
 
 .fotograficard{
-    width: 49%;
-    padding: 20px 5%;
+    width: 50%;
+    padding: 25px;
 }
+.animationcard{
+    width: 50%;
+    padding: 25px;
+}
+.uiuxcard{
+    width: 50%;
+    padding: 25px;
+}
+
 
 /*test af slide funktion til projekteksempler*/
 body {
@@ -323,6 +343,30 @@ footer{
         color: #000;
         font-family: "Instrument Sans";
         background-color: rgb(190, 220, 254);
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .cards-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .illustratorcard{
+        width: 25%;
+        padding: 25px;
+    }
+    
+    .fotograficard{
+        width: 25%;
+        padding: 25px;
+    }
+    .animationcard{
+        width: 25%;
+        padding: 25px;
+    }
+    .uiuxcard{
+        width: 25%;
+        padding: 25px;
     }
 }
 
