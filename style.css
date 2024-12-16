@@ -95,7 +95,7 @@ button:hover {
     align-items: center;
     gap: 35px;
     justify-content: center;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(217, 217, 217);
 }
 
 .image-wrapper {
@@ -294,6 +294,19 @@ button:hover {
 
 
 
+
+
+.cssanimation__content__origamisvane {
+    max-width: 750px;
+    height: 500px;
+    background: url(images/cssanimation.png) 0 0 no-repeat;
+    animation: play 2750ms steps(20) infinite;
+}
+
+@keyframes play {
+    0%{background-position:0px;}
+   100% { background-position: -15000px; }
+}
 
 
 /*styling af tekst til portfolioprojekter*/
