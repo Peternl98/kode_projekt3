@@ -207,38 +207,89 @@ button:hover {
     padding: 25px;
 }
 
-/*her styler jeg projektkasser til at vise projekter på portfolio*/
+/*her styler jeg kasser til at vise projekter på portfolioside*/
 
 .portfolio-wrapper{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        display: block;
-    }  
+    color: black
+}
+
+.illustration{
+    background-color: rgb(190, 220, 254);
+    ;
+   }
+
+/*titler på portfolioprojekter*/
+
+   .uiux__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+   }
+   .illustration__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+   }
+.cssanimation__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+}
+.movingart__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+}
+.produktbilleder__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+}
+.fotografi__title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 79, 116);
+    background-color:white
+}
 
 
-/*test af fotocollage*/
-.fotocollage {
+
+
+/*styling af fotocollage*/
+ul {
     display: flex;
     flex-wrap: wrap;
+  }
+  
+.foto__content__collage li {
+    height: 40vh;
+    flex-grow: 1;
     list-style: none;
   }
   
-  li {
-    height: 40vh;
-    flex-grow: 1;
-  }
-  
-  li:last-child {
+.foto__content_collage li:last-child {
     flex-grow: 10;
   }
   
-  img {
+.foto__content__collage img {
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
   }
+  
+  
   
 
 /*herunder styles footer*/
@@ -267,7 +318,7 @@ footer{
 /*herunder koder jeg alt hvad der skal være i media querie til mobil-skærm*/
 
 @media only screen and (max-width: 600px){
-    .kompetencer{
+    .bluetext{
         font-size: 16px;
     }
     .spritesheet{
