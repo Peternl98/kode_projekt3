@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(227, 227, 227);
 }
 
 
@@ -95,7 +95,7 @@ button:hover {
     align-items: center;
     gap: 35px;
     justify-content: center;
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(227, 227, 227);
 }
 
 .image-wrapper {
@@ -266,6 +266,36 @@ button:hover {
     color: rgb(0, 79, 116);
 }
 
+/*styling af content til portfolioprojekter*/
+
+.uiux__content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.uiux__content__styletile{
+        padding: 20px;
+        width: 50%;
+    }
+    
+.uiux__content__redesignmac{
+        padding: 20px;
+        width: 50%;
+}
+.illustration__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.illustration__content__selvportræt{
+        padding: 20px;
+        width: 50%;
+}
+
+
+
+
+
 /*styling af tekst til portfolioprojekter*/
 
 .uiux__text{
@@ -295,7 +325,8 @@ button:hover {
 
 
 /*styling af fotocollage*/
-ul {
+
+ul{
     display: flex;
     flex-wrap: wrap;
     padding: 20px 5%;
@@ -436,4 +467,3 @@ footer{
         padding: 25px;
     }
 }
-
