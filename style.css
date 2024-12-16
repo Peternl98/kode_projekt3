@@ -210,58 +210,86 @@ button:hover {
 /*her styler jeg kasser til at vise projekter på portfolioside*/
 
 .portfolio-wrapper{
-    color: black
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    background-color: white
 }
 
-.illustration{
-    background-color: rgb(190, 220, 254);
-    ;
-   }
-
 /*titler på portfolioprojekter*/
+
+.uiux, .illustration, .cssanimation, .movingart, .produktbilleder, .fotografi{
+    background-color: rgb(190, 220, 254);
+    padding: 20px 5%;
+}
 
    .uiux__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
    }
    .illustration__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
    }
 .cssanimation__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
 }
 .movingart__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
 }
 .produktbilleder__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
 }
 .fotografi__title{
     font-family: "Inter";
     font-size: 22px;
     font-weight: 200;
+    padding: 20px 5%;
     color: rgb(0, 79, 116);
-    background-color:white
 }
+
+/*styling af tekst til portfolioprojekter*/
+
+.uiux__text{
+    padding: 0 5%;
+}
+.illustration__text{
+    padding: 0 5%;
+   }
+
+.cssanimation__text{
+    padding: 0 5%;
+}
+.movingart__text{
+    padding: 0 5%;
+}
+.produktbilleder__text{
+    padding: 0 5%;
+}
+.fotografi__text{
+    padding: 0 5%;
+}
+
+
+
 
 
 
@@ -270,6 +298,7 @@ button:hover {
 ul {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px 5%;
   }
   
 .foto__content__collage li {
