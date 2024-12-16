@@ -64,6 +64,13 @@ button:hover {
         object-fit: cover;
 }
 
+.portrætbanner{
+    display: flex;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
 /*herunder styles main*/
 
 
@@ -166,9 +173,16 @@ button:hover {
     font-family: "Instrument Sans";
     background-color: rgb(190, 220, 254);
 }
+.projekter-text p{
+    display: flex-end;
+    font-size: 16px;
+    color: #000;
+    font-family: "Instrument Sans";
+    background-color: rgb(190, 220, 254);
+}
 
 
-/*her koder jeg cards til at vise projekt-eksempler på forsiden (Lav evt. links til side v. klik*/
+/*her styler jeg cards til at vise projekt-eksempler på forsiden */
 
 .cards-wrapper{
     display: flex;
@@ -193,6 +207,38 @@ button:hover {
     padding: 25px;
 }
 
+/*her styler jeg projektkasser til at vise projekter på portfolio*/
+
+.portfolio-wrapper{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        display: block;
+    }  
+
+
+/*test af fotocollage*/
+.fotocollage {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  li {
+    height: 40vh;
+    flex-grow: 1;
+  }
+  
+  li:last-child {
+    flex-grow: 10;
+  }
+  
+  img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
   
 
 /*herunder styles footer*/
@@ -284,6 +330,8 @@ footer{
         background-color: rgb(190, 220, 254);
     }
 }
+
+/* media querie til større skærm*/
 
 @media only screen and (min-width: 1200px){
     .cards-wrapper{
