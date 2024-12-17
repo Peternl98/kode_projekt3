@@ -12,7 +12,7 @@
 
 ul, li, a {
     font-family: "Inter";
-    font: weight 400px;
+    font-weight: 300;
     font-size: 20px;
     color: rgb(20, 20, 20);
     text-decoration: none;
@@ -165,20 +165,13 @@ header {
 }
 
 .projekter-text h1 {
-    display: flex-end;
+    display: flex;
+    justify-content: end;
     font-size: 32px;
     color: #000;
     font-family: "Instrument Sans";
     background-color: rgb(190, 220, 254);
 }
-.projekter-text p{
-    display: flex-end;
-    font-size: 16px;
-    color: #000;
-    font-family: "Instrument Sans";
-    background-color: rgb(190, 220, 254);
-}
-
 
 /*her styler jeg cards til at vise projekt-eksempler på forsiden */
 
@@ -349,13 +342,7 @@ header {
     padding: 0 5%;
 }
 
-
-
-
-
-
-
-/*styling af fotocollage*/
+/*styling af fotocollage til portfolioside*/
 
 ul{
     display: flex;
@@ -380,6 +367,44 @@ ul{
     vertical-align: bottom;
   }
   
+/*herunder styles box til om mig side*/
+
+
+.about__box {
+    background-color: rgb(190, 220, 254); 
+    padding: 20px 5%; 
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  
+
+  .about__box__title {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    background-color: rgb(190, 220, 254); 
+    color: black; 
+    margin-bottom: 10px; 
+  }
+  
+  .about__box__text{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    font-size: 18px; 
+    background-color: rgb(190, 220, 254); 
+  }
+  
+  .about__box__images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(190, 220, 254);
+  }
+  
+  .about__box__image {
+    width: 50%;
+    object-fit: cover;
+  }
+
 
 /*herunder styles footer*/
 
@@ -422,7 +447,7 @@ footer{
         font-size: 16px;
     }
     .spritesheet{
-        display: flex-end;
+        display: flex;
         width: 150%;
         object-fit: cover;
         bottom: 20px;
@@ -467,8 +492,7 @@ footer{
     }
     .projekter {
         text-align: right;
-        padding-right: 20px;
-        max-width: auto; 
+        padding-right: 20px; 
         height: auto;
         font-family: "Inter";
         background-color:rgb(190, 220, 254); 
