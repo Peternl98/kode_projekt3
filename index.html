@@ -11,18 +11,20 @@
 <!--herunder kodes header-->
 
     <header>
-        <img class="logo" src="images/logo.png" alt="her skulle være et logo">
-        <nav>
-            <ul class="navlinks">
+    
+    <a href="index.html" class="header__logo"><img src="images/logo1.webp" alt="her skulle være et logo"></a>
+        <nav class="header__nav">
+            <ul class="header__navlinks">
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="ommig.html">Om Mig</a></li>
-            </ul>
+                <li><a href="kontakt.html" class="nav-button">Kontakt</a></li>
+                </ul>
         </nav>
-        <a class="kontakt_knap" href="kontakt.html"><button>Kontakt</button></a>
     </header>
 
+<!--bannerbillede under header-->
     <div class="herobanner">
-        <img class="herobannerimage" src="images/skilt2.jpg" alt=" her skulle være et herobanner">
+        <img class="herobanner__image" src="images/skilt2.jpg" alt=" her skulle være et herobanner">
     </div>
 
 
@@ -57,14 +59,13 @@
 
          <div class="projekter">
              <div class="projekter-text">
-            <a href="portfolio.html"><h1>PROJEKTER</h1></a></li>
-            <a href="portfolio.html"><p>Portfolio<p></a></li>
+            <a href="portfolio.html"><h1>PROJEKTER</h1></a>
              </div>
         </div>
 
     <!-- Her kodes cards, der viser eksempler på projekter-->
 
-    <div class="card.container">
+    <div class="card-container">
 
         <div class="cards-wrapper"> 
                 <img src="images/uiuxcard.webp" alt="ui/ux" class="uiuxcard">
@@ -80,15 +81,22 @@
 <!--herunder kodes footer-->
     <footer>
 
-        <img class="footerlogo" src="images/logo1.4.png" alt="her skulle være footerlogo"
-        <p>
+        <img class="footerlogo" src="images/logo1.4.png" alt="her skulle være footerlogo">
+        
+        <p class="footer__text">
+            &copy; 2024<br>
+            Peter Neldeborg Larsen.<br>
+            All rights reserved
+        </p> 
+
+        <address class="footer__address">
             pardon.media<br>
             Peter Neldeborg Larsen<br>
             Oluf Bagers Gade 39, Odense C<br>
             +45 28 94 34 71<br>
-            kontakt@pardonmedia.dk<br><br>
-        </p>
-
+            <a class="footer__link" href="mailto:kontakt@pardonmedia.dk">kontakt@pardonmedia.dk</a>
+        </address>
+       
     </footer>
 </body>
 </html>
