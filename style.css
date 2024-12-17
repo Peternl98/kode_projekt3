@@ -210,9 +210,10 @@ button:hover {
 /*her styler jeg kasser til at vise projekter på portfolioside*/
 
 .portfolio-wrapper{
-    font-family: "Inter";
+    font-family: "Instrument sans";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
+    color:  rgb(0, 79, 116);
     background-color: white
 }
 
@@ -226,42 +227,42 @@ button:hover {
    .uiux__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
    }
    .illustration__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
    }
 .cssanimation__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
 }
 .movingart__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
 }
 .produktbilleder__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
 }
 .fotografi__title{
     font-family: "Inter";
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 20px 5%;
     color: rgb(0, 79, 116);
 }
@@ -289,11 +290,22 @@ button:hover {
 }
 .illustration__content__selvportræt{
         padding: 20px;
-        width: 50%;
+        width: 60%;
 }
 
-
-
+.produktbilleder__content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 5%;
+}
+.produktbilleder__content__sko1{
+    width: 50%;
+    padding: 20px;
+}
+.produktbilleder__content__sko2{
+    width: 50%;
+    padding: 20px;
+}
 
 
 .cssanimation__content__origamisvane {
@@ -453,7 +465,20 @@ footer{
         font-family: "Instrument Sans";
         background-color: rgb(190, 220, 254);
     }
+    .illustration__content__selvportræt{
+        padding: 20px;
+        width: 100%;
+    }
+    .produktbilleder__content__sko1{
+        width: 100%;
+        padding: 20px;
+    }
+    .produktbilleder__content__sko2{
+        width: 100%;
+        padding: 20px;
+    }
 }
+
 
 /* media querie til større skærm*/
 
