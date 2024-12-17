@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(230, 230, 230);
 }
 
 
@@ -404,7 +404,7 @@ footer{
 .footer__address{
     background-color: rgb(246, 71, 64)
 }
-.footer__text{
+.footer__copyright{
     padding: 20px 5%;
     font-size: 9px;
     background-color: rgb(246, 71, 64)
