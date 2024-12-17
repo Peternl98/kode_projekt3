@@ -447,6 +447,23 @@ footer{
 /*herunder koder jeg alt hvad der skal være i media querie til mobil-skærm*/
 
 @media only screen and (max-width: 600px){
+    ul, li, a {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 10px;
+        color: rgb(20, 20, 20);
+        text-decoration: none;
+    }
+    .header__logo {
+        height: 50px;
+        cursor: pointer;
+        margin-right: auto;
+    }
+    .header__logo img {
+        height: 50px; 
+        cursor: pointer;
+      }
+
     .bluetext{
         font-size: 16px;
     }
@@ -520,7 +537,27 @@ footer{
         width: 100%;
         padding: 20px;
     }
+    .footerlogo{
+        height: 50px;
+        margin-right: auto;
+        padding-right: 20px;
+        background-color: rgb(246, 71, 64)
+    }
+    ul {
+        flex-direction: row;
+      }
+    
+    .foto__content__collage li {
+        height: auto;
+        width: 100%;
+      }
+    
+     .foto__content__collage img {
+        width: 100%;
+        max-height: 300px;
+      }
 }
+
 
 
 /* media querie til større skærm*/
